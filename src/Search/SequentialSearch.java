@@ -8,7 +8,7 @@ public class SequentialSearch {
     static int seqSearch(int[] a, int n, int key) {
         int i = 0;
 
-        while (true) {
+        while (true) { //시간복잡도 O(n/2)
             if (i == n)
                 return -1;		// 검색 실패!(-1을 반환)
             if (a[i] == key)
