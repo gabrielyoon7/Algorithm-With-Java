@@ -14,7 +14,7 @@ SequentialSearch.java에서는 다음과 같은 종료조건을 판단해야합�
 
  */
 
-class SeqSearchSen {
+class SequentialSearchSentiel {
     // 요솟수가 n인 배열 a에서 key와 같은 요소를 보초법으로 선형 검색합니다.
     static int seqSearchSen(int[] a, int n, int key) {
         int i = 0;

@@ -10,11 +10,12 @@
 ####목차 
 * 검색 (Search)
   * 선형검색(Sequntial Serach)
-    * SequentialSearch.java
-    * SequentialSearchFor.java
-    * SequentialSearchSentiel.java
+    * SequentialSearch.java : 선형검색
+    * SequentialSearchFor.java : 선형검색 (for문 개량)
+    * SequentialSearchSentiel.java : 보초법을 활용한 선형검색
   * 이진검색(Binary Serach)
-    * BinarySearch.java
+    * BinarySearch.java : 이진검색
+    * BinarySearchTester.java : 메서드를 활용한 이진검색
     
     
 ####보충 설명

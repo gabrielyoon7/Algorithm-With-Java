@@ -4,6 +4,8 @@ import java.util.Scanner;
 // 이진 검색
 /*
 BinarySearch는 자바에서 API로 제공해줌. 검색해서 사용 가능.
+binarySearch를 사용하면 됨. (해당 내용은 BinarySerachTester.java 에서 확인 가능.)
+
  */
 
 class BinarySearch {

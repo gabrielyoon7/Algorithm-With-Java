@@ -6,7 +6,7 @@ import java.util.Scanner;
 SequentialSearch.java의 for문 적용 버전
  */
 
-class SeqSearchFor {
+class SequentialSearchFor {
     // 배열 a의 앞쪽 n개의 요소에서 key와 같은 요소를 선형 검색
     static int seqSearch(int[] a, int n, int key) {
         for (int i = 0; i < n; i++)
