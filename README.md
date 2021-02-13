@@ -16,6 +16,7 @@
   * 이진검색(Binary Serach)
     * BinarySearch.java : 이진검색
     * BinarySearchTester.java : 메서드를 활용한 이진검색
+    * StringBinarySearch.java : 문자열 정렬이 된 리스트에서 이진검색
     
     
 ####보충 설명
