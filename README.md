@@ -17,6 +17,12 @@
     * BinarySearch.java : 이진검색
     * BinarySearchTester.java : 메서드를 활용한 이진검색
     * StringBinarySearch.java : 문자열 정렬이 된 리스트에서 이진검색
+  * 스택(Stack)
+    * IntStack.java : IntStackTester.java를 위한 스택 클래스
+    * IntStackTester.java : 스택 돌리는 클래스
+  * 큐(Queue)
+    * IntQueue.java : IntQueueTester.java를 위한 큐 클래스
+    * IntQueueTester.java : 큐 돌리는 클래스
     
     
 ####보충 설명
