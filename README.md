@@ -8,7 +8,7 @@
 2. (미정)
 
 ####목차 
-* 검색 (Search)
+* 검색(Search)
   * 선형검색(Sequntial Serach)
     * SequentialSearch.java : 선형검색
     * SequentialSearchFor.java : 선형검색 (for문 개량)
@@ -17,13 +17,19 @@
     * BinarySearch.java : 이진검색
     * BinarySearchTester.java : 메서드를 활용한 이진검색
     * StringBinarySearch.java : 문자열 정렬이 된 리스트에서 이진검색
+* 스택과 큐
   * 스택(Stack)
     * IntStack.java : IntStackTester.java를 위한 스택 클래스
     * IntStackTester.java : 스택 돌리는 클래스
   * 큐(Queue)
     * IntQueue.java : IntQueueTester.java를 위한 큐 클래스
     * IntQueueTester.java : 큐 돌리는 클래스
-    
+* 재귀 알고리즘(RecursiveAlgorithm)
+  * Factorial.java : 재귀적으로 사용한 팩토리얼
+  * EuclidGCD.java : 유클리드 호제법을 이용한 최대 공약수 구하기
+  * Recursive.java : 재귀법 사용 예시
+  * RecursiveX1.java : 꼬리재귀 제거 (Recursive.java 개선판)
+  * RecursiveX2.java : IntStack 활용한 재귀법 (Recursive.java 개선판)
     
 ####보충 설명
 * 보초법
