@@ -30,6 +30,10 @@
   * Recursive.java : 재귀법 사용 예시
   * RecursiveX1.java : 꼬리재귀 제거 (Recursive.java 개선판)
   * RecursiveX2.java : IntStack 활용한 재귀법 (Recursive.java 개선판)
+  * QueenB.java : 퀸을 배치할 수 있는 모든 경우의 수
+  * QueenBB.java : 퀸을 올바르게 배치하는 모든 경우의 수
+* 정렬 (Sort)
+  * 
     
 ####보충 설명
 * 보초법
