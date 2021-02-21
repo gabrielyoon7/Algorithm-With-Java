@@ -2,6 +2,10 @@ package Sort;
 
 import java.util.Scanner;
 // 버블 정렬(버전 1)
+/*
+뒤부터 앞 방향으로 대소 비교해서 swap을 해주고
+그것을 완성될 때 까지 n회 반복하는 정렬. 이때 n = 요솟수
+ */
 
 class BubbleSort {
     // a[idx1]와 a[idx2]의 값을 바꿉니다.

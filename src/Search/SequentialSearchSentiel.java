@@ -28,8 +28,7 @@ class SequentialSearchSentiel {
         }
         return i == n ? -1 : i;     //마지막 인덱스를 return 한다면 원래 배열 범위에 값이 존재하지 않았다는 의미이므로 -1을 return
     }
-
-    public static void main(String[] args) {
+    public void run(){
         Scanner stdIn = new Scanner(System.in);
 
         System.out.print("요솟수：");
@@ -50,5 +49,10 @@ class SequentialSearchSentiel {
             System.out.println("그 값의 요소가 없습니다.");
         else
             System.out.println(ky+"은(는) x[" + idx + "]에 있습니다.");
+    }
+
+    public static void main(String[] args) {
+        SequentialSearchSentiel sss = new SequentialSearchSentiel();
+        sss.run();
     }
 }

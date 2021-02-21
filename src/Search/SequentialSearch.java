@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class SequentialSearch {
     // 배열 a의 앞쪽 n개의 요소에서 key와 같은 요소를 선형 검색
-    static int seqSearch(int[] a, int n, int key) {
+    int seqSearch(int[] a, int n, int key) {
         int i = 0;
 
         while (true) { //시간복잡도 O(n/2)
@@ -16,8 +16,7 @@ public class SequentialSearch {
             i++;
         }
     }
-
-    public static void main(String[] args) {
+    public void run(){
         Scanner stdIn = new Scanner(System.in);
 
         System.out.print("요솟수：");
@@ -38,5 +37,10 @@ public class SequentialSearch {
             System.out.println("그 값의 요소가 없습니다.");
         else
             System.out.println(ky+"은(는) x[" + idx + "]에 있습니다.");
+    }
+
+    public static void main(String[] args) {
+        SequentialSearch ss = new SequentialSearch();
+        ss.run();
     }
 }

@@ -34,7 +34,15 @@
   * QueenBB.java : 퀸을 올바르게 배치하는 모든 경우의 수
 * 정렬 (Sort)
   * 버블정렬(Bubble Sort)
-    * 
+    * BubbleSort.java : 버블정렬의 기본적인 예
+    * BubbleSort2.java : BubbleSort.java 개선판 (검사하면서 교환이 단 한번도 이루어지지 않으면 정렬되었다고 판단하여 종료하여 연산을 줄임)
+    * BubbleSort3.java : BubbleSort2.java 개선판 (앞쪽 요소는 이미 정렬이 되었다고 가정하에 연산을 점점 줄여나감)
+   * 단순 선택 정렬 (Straight Selection Sort)
+    * SelectionSort.java : 단순 선택 정렬
+   * 단순 삽입 정렬 (Stright Insertion Sort)
+    * InsertionSort.java : 단순 삽입 정렬
+    
+        
     
 ####보충 설명
 * 보초법
@@ -46,6 +54,6 @@
   * 공간복잡도(Space Complexity)
 * 정렬알고리즘의 핵심 요소는 교환, 선택, 삽입이다.
 * 내부정렬 : 정렬할 모든 데이터를 하나의 배열에 저장할 수 있는 경우에 사용하는 알고리즘
-* 외부정렬 : 정렬할 데이턱 ㅏ너무 많아서 하나의 배열에 저장할 수 없는 경우에 사용하는 알고리즘
+* 외부정렬 : 정렬할 데이터가 너무 많아서 하나의 배열에 저장할 수 없는 경우에 사용하는 알고리즘
 
     
