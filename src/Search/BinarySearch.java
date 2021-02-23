@@ -10,7 +10,7 @@ binarySearch를 사용하면 됨. (해당 내용은 BinarySerachTester.java 에�
 
 class BinarySearch {
     // 요솟수가 n인 배열 a에서 key와 같은 요소를 이진 검색합니다.
-    static int binSearch(int[] a, int n, int key) {
+    int binSearch(int[] a, int n, int key) {
         int pl = 0;			// 검색 범위의 첫 인덱스
         int pr = n - 1;		// 검색 범위의 끝 인덱스
 
@@ -26,8 +26,7 @@ class BinarySearch {
 
         return -1;						// 검색 실패!
     }
-
-    public static void main(String[] args) {
+    public void run(){
         Scanner stdIn = new Scanner(System.in);
 
         System.out.print("요솟수：");
@@ -55,5 +54,10 @@ class BinarySearch {
             System.out.println("그 값의 요소가 없습니다.");
         else
             System.out.println(ky+"은(는) x[" + idx + "]에 있습니다.");
+    }
+
+    public static void main(String[] args) {
+        BinarySearch bs = new BinarySearch();
+        bs.run();
     }
 }

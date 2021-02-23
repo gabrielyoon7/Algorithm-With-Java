@@ -37,7 +37,7 @@ class BinarySearchTester {
         int idx = Arrays.binarySearch(x, ky);	// 배열 x에서 키 값이 ky인 요소를 검색 **********이 부분에서 Arrays 메서드 사용************
 
         if (idx < 0)
-            System.out.println("그 값의 요소가 없습니다.");
+            System.out.println("그 값의 요소가 없습니다. 반환 인덱스 : "+idx);
         else
             System.out.println(ky+"은(는) x[" + idx + "]에 있습니다.");
     }

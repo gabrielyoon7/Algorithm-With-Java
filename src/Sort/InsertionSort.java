@@ -7,10 +7,10 @@ class InsertionSort {
     static void insertionSort(int[] a, int n) {
         for (int i = 1; i < n; i++) {
             int j;
-            int tmp = a[i];
-            for (j = i; j > 0 && a[j - 1] > tmp; j--)
+            int tmp = a[i]; //삽입할 요소를 임시 변수에 넣고
+            for (j = i; j > 0 && a[j - 1] > tmp; j--) //나머지 요소들을 우로 한칸씩 이동
                 a[j] = a[j - 1];
-            a[j] = tmp;
+            a[j] = tmp; //삽입할 위치에 요소 삽입
         }
     }
 
