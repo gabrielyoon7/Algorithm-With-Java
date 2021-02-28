@@ -42,10 +42,27 @@
    * 단순 삽입 정렬 (Stright Insertion Sort)
     * InsertionSort.java : 단순 삽입 정렬
    * 셸 정렬 (Shell Sort)
-    * 
-    
-        
-    
+    * ShellSort.java : 셸 정렬
+    * ShellSort2.java : 수열을 사용한 셸 정렬
+   * 퀵 정렬 (Quick Sort)
+    * Partition.java : 퀵정렬에 앞서 배열 나누는 방법에 대한 실습
+    * QuickSort.java : 퀵 정렬(기본)
+    * QuickSort1.java : 퀵 정렬 하는 과정을 전부 출력해주는 버전
+    * QuickSort2.java : 스택을 활용한 퀵 정렬 구현 방법 (비재귀 방식)
+   * 병합 정렬 (Merge Sort)
+    * MergeArray.java : 배열을 병합하기
+    * MergeSort.java : 정렬된 배열을 병합하기
+   * 힙 정렬 (Heap Sort)
+    * ★★★★★★★★★★★★★힙 정렬은 나중에 트리 공부 하고 다시 공부할 것 ★★★★★★★★★★★★★★★★★★★★★★
+   * 도수 정렬
+    * ★★★★★힙정렬 이후에 공부 ★★★★★
+   * 번외 (Etc)
+    * ArraysSortTester.java : Arrays.sort를 활용한 기본 자료형 배열의 정렬 (퀵 정렬)
+    * SortCalendar.java : Arrays.sort를 활용한 클래스 객체 배열의 정렬1 (병합 정렬)
+    * PhyscExamSort.java : Arrays.sort를 활용한 클래스 객체 배열의 정렬2 (병합 정렬)
+* 집합 (Set)
+  * 
+  
 ####보충 설명
 * 보초법
   * SequentialSearchSentiel.java 참고

@@ -2,6 +2,7 @@ package Sort;
 
 import java.util.Scanner;
 // 셸 정렬(버전2, h의 값은 …, 40, 13, 4, 1）
+//수열을 사용한 셸 정렬
 
 class ShellSort2 {
     // 셸정렬
