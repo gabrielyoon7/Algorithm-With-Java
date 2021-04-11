@@ -61,7 +61,11 @@
     * SortCalendar.java : Arrays.sort를 활용한 클래스 객체 배열의 정렬1 (병합 정렬)
     * PhyscExamSort.java : Arrays.sort를 활용한 클래스 객체 배열의 정렬2 (병합 정렬)
 * 집합 (Set)
-  * 
+  * IntSet.java : 집합 기능 구현
+  * IntSetTester.java : IntSet.java를 활용한 집합 기능 사용해보기
+* 문자열 검색 (String Search)
+  * .
+
   
 ####보충 설명
 * 보초법
